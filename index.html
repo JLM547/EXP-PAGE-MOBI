@@ -17,11 +17,64 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=Nzzyso"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=Nzzyso" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=FMcbJd"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=FMcbJd" type="text/css">
 
+  <style>
+    .header-bg {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .header-bg::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(45deg, rgba(220,53,69,0.1), rgba(0,123,255,0.1));
+      z-index: 1;
+    }
+    
+    .header-bg .container-fluid {
+      position: relative;
+      z-index: 2;
+    }
+    
+    .theater-pattern {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: 
+        radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(255,255,255,0.05) 0%, transparent 50%);
+      z-index: 1;
+    }
+    
+    .warm-bg {
+      color: #2c3e50 !important;
+    }
+    
+    .warm-bg h1, .warm-bg h2, .warm-bg h3, .warm-bg h4, .warm-bg h5, .warm-bg h6 {
+      color: #2c3e50 !important;
+    }
+    
+    .warm-bg p {
+      color: #34495e !important;
+    }
+  </style>
   
-  
-  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8NEJPH7BZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-V8NEJPH7BZ');
+  </script>
 </head>
 <body>
   
@@ -32,11 +85,11 @@
 		<div class="container">
 			<div class="navbar-brand">
 				<span class="navbar-logo">
-					<a href="https://mobiri.se">
+					<a href="index.html">
 						<img src="assets/images/mbr.jpg" alt="Mobirise Website Builder" style="height: 4.3rem;">
 					</a>
 				</span>
-				<span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="https://mobiri.se">Teatro</a></span>
+				<span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="index.html">Teatro</a></span>
 			</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<div class="hamburger">
@@ -48,7 +101,7 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
-						<a class="nav-link link text-black display-4" href="https://mobiri.se">Home</a>
+						<a class="nav-link link text-black display-4" href="index.html">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link link text-black text-primary display-4" href="page1.html" aria-expanded="false">Salas de Teatro<br></a>
@@ -62,9 +115,9 @@
 	</nav>
 </section>
 
-<section data-bs-version="5.1" class="header18 cid-v0qayWYRBq" data-bg-video="https://www.youtube.com/watch?v=NV_hqqvJNM8&amp;pp=ygULdGVhdHJvIGxvZ28%3D" id="header18-2">
+<section data-bs-version="5.1" class="header18 cid-v0qayWYRBq header-bg" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/images/teatro1-1772x1275.jpg'); background-size: cover; background-position: center; background-attachment: fixed;" id="header18-2">
   
-
+  <div class="theater-pattern"></div>
   <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
   <div class="container-fluid">
     <div class="row">
@@ -82,11 +135,11 @@
     
 
     
-    <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(255, 255, 255);">
+    <div class="mbr-overlay" style="opacity: 0.4; background: linear-gradient(135deg, #f5f1e8, #e8dcc0);">
     </div>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
+            <div class="title col-md-12 col-lg-10 warm-bg">
                 <h3 class="mbr-section-title mbr-fonts-style align-center mt-0 mb-0 display-2"><strong><em>Espectáculos destacados</em></strong></h3>
                 
                 
@@ -110,7 +163,7 @@
 				<div class="text-wrapper align-left">
 					<h1 class="mbr-section-title mbr-fonts-style mb-4 display-2"><strong>Esperando la Carroza</strong></h1>
 					<p class="mbr-text mbr-fonts-style mb-4 display-7">Género: Comedia costumbrista<br><br>Elenco: Nora Cortiñas, Ricardo Díaz, Silvana Rossi<br><br>Descripción: La clásica obra de Jacobo Langsner que retrata, con humor ácido, los enredos familiares más argentinos.</p>
-					<div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-warning display-7" href="https://mobiri.se">Comprar Entradas</a></div>
+					<div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-success-outline display-7" href="page4.html">Comprar Entradas</a></div>
 				</div>
 			</div>
 		</div>
@@ -132,7 +185,7 @@
 				<div class="text-wrapper align-left">
 					<h1 class="mbr-section-title mbr-fonts-style mb-4 display-2"><strong>Tango Pasión</strong></h1>
 					<p class="mbr-text mbr-fonts-style mb-4 display-7">Género: Musical<br><br>Elenco: Compañía de Danza Federal<br><br>Descripción: Un espectáculo vibrante que combina tango, bandoneón y teatro.</p>
-					<div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-warning display-7" href="https://mobiri.se">Comprar Entradas</a></div>
+					<div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-success-outline display-7" href="page4.html">Comprar Entradas</a></div>
 				</div>
 			</div>
 		</div>
@@ -155,7 +208,7 @@
 					<h1 class="mbr-section-title mbr-fonts-style mb-4 display-2">
 						<strong>Borges y Yo</strong></h1>
 					<p class="mbr-text mbr-fonts-style mb-4 display-7">Género: Drama literario<br><br>Elenco: Juan Carlos Rivas<br><br>Descripción: Una puesta minimalista basada en textos de Jorge Luis Borges, con una actuación que emociona.</p>
-					<div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-warning display-7" href="https://mobiri.se">Comprar Entradas</a></div>
+					<div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-success-outline display-7" href="page4.html">Comprar Entradas</a></div>
 				</div>
 			</div>
 		</div>
@@ -185,7 +238,7 @@
                         <ul class="list mbr-fonts-style display-7">
                             <li class="mbr-text item-wrap">Phone: (011) 4321-9000</li>
                             <li class="mbr-text item-wrap">WhatsApp: (011) 4321-9000</li>
-                            <li class="mbr-text item-wrap">Email: <a href="mailto:info@site.com" class="text-info">infoteatro.com</a></li>
+                            <li class="mbr-text item-wrap">Email: <a href="mailto:info@site.com" class="text-primary">infoteatro.com</a></li>
                             <li class="mbr-text item-wrap">Ubicación: Av. Belgrano 1234, Ciudad Autónoma de Buenos Aires.</li>
                             <li class="mbr-text item-wrap">Martes a Domingo de 10:00 a 20:00 hs</li>
                         </ul>
@@ -197,7 +250,7 @@
             </div>
         </div>
     </div>
-</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/4272493" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/ai-website-creator.html">Best AI Website Creator</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/vimeoplayer/player.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/4272493" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/offline-website-builder.html">Offline Website Maker</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/vimeoplayer/player.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
   
   
 </body>

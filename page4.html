@@ -18,6 +18,15 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=pgaDIq">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=pgaDIq" type="text/css">
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8NEJPH7BZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-V8NEJPH7BZ');
+  </script>
 </head>
 
 <body>
@@ -51,55 +60,136 @@
 	</nav>
   </section>
 
-  <section data-bs-version="5.1" class="header14 cid-v0GlC7Fv3h mbr-fullscreen" id="header14-16">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="card col-12 col-md-12 col-lg-8">
-				<div class="card-wrapper">
-					<div class="card-box align-center">
-						<h1 class="card-title mbr-fonts-style mb-4 display-1"><strong>Compra tu entrada</strong></h1>
+  <section data-bs-version="5.1" class="header09 startm5 cid-v0FUHLPyem mbr-fullscreen" id="header09-u" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/images/teatro1-1772x1275.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="content-wrap col-12 col-md-8">
+                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1"><strong>💳 Compra de Entrada</strong></h1>
+                <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Iniciá sesión y completá el formulario para reservar tu lugar.</p>
+                <div class="mbr-section-btn"><a class="btn btn-danger display-7" href="#login-section" style="border-radius: 10px; padding: 1rem 2rem; font-weight: 600;">Ir a Iniciar Sesión</a></div>
+            </div>
+        </div>
+    </div>
+  </section>
 
-						<!-- FORMULARIO DE COMPRA DE ENTRADAS -->
-						<form action="#" method="post" class="text-start" style="max-width: 500px; margin: 0 auto; background-color: #fff3cd; padding: 30px; border-radius: 15px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
-						  <h3 style="text-align:center; margin-bottom:20px;">Formulario de Compra</h3>
-						  
-						  <label for="nombre">Nombre completo:</label>
-						  <input type="text" id="nombre" name="nombre" class="form-control mb-3" placeholder="Ingresa tu nombre" required>
-						  
-						  <label for="email">Correo electrónico:</label>
-						  <input type="email" id="email" name="email" class="form-control mb-3" placeholder="ejemplo@correo.com" required>
-						  
-						  <label for="obra">Obra seleccionada:</label>
-						  <select id="obra" name="obra" class="form-control mb-3" required>
-						    <option value="">Selecciona una obra</option>
-						    <option value="la_nona">La Nona</option>
-						    <option value="gronholm">El Método Grönholm</option>
-						    <option value="mate">Mate Amargo</option>
-						  </select>
-						  
-						  <label for="fecha">Fecha de función:</label>
-						  <input type="date" id="fecha" name="fecha" class="form-control mb-3" required>
-						  
-						  <label for="cantidad">Cantidad de entradas:</label>
-						  <input type="number" id="cantidad" name="cantidad" class="form-control mb-3" min="1" max="10" value="1" required>
-						  
-						  <label for="pago">Método de pago:</label>
-						  <select id="pago" name="pago" class="form-control mb-4" required>
-						    <option value="">Selecciona un método</option>
-						    <option value="tarjeta">Tarjeta de crédito/débito</option>
-						    <option value="efectivo">Efectivo</option>
-						    <option value="transferencia">Transferencia bancaria</option>
-						  </select>
-						  
-						  <button type="submit" class="btn btn-warning w-100">Confirmar compra</button>
-						</form>
-						<!-- FIN FORMULARIO -->
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+  <section data-bs-version="5.1" class="form03 cid-v0FTxhUxLh" id="login-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-6">
+                <div class="mbr-section-head mb-5">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Iniciar Sesión</strong></h3>
+                    <p class="text-center mt-3" style="color: #6c757d;">Ingresá tus datos para continuar con la compra</p>
+                </div>
+                <div class="col-lg-12 mx-auto mbr-form" data-form-type="formoid" style="background: #f8f9fa; padding: 2rem; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <form action="#" method="POST" class="mbr-form form-with-styler" data-form-title="Login Form">
+                        <div class="row">
+                            <div hidden="hidden" data-form-alert="" class="alert alert-success col-12" style="border-radius: 10px; border: none; background: linear-gradient(135deg, #28a745, #20c997); color: white; font-weight: 500;">✅ ¡Sesión iniciada! Ya podés proceder con la compra.</div>
+                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12" style="border-radius: 10px; border: none;">Credenciales incorrectas. Verificá tu email y contraseña.</div>
+                        </div>
+                        <div class="dragArea row" style="gap: 1rem;">
+                            <div class="col-12 form-group mb-4" data-for="login-email" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+                                <label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">E-mail *</label>
+                                <input type="email" name="login-email" placeholder="tu@email.com" data-form-field="login-email" class="form-control" id="login-email-form" required style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+                            </div>
+                            <div class="col-12 form-group mb-4" data-for="login-password" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+                                <label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">Contraseña *</label>
+                                <input type="password" name="login-password" placeholder="Tu contraseña" data-form-field="login-password" class="form-control" id="login-password-form" required style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+                            </div>
+                            <div class="col-12 form-group mb-4" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="remember">
+                                    <label class="form-check-label" for="remember" style="color: #495057; font-size: 0.95rem;">Recordarme</label>
+                                </div>
+                                <div class="text-end mt-2">
+                                    <a href="#" style="color: #007bff; text-decoration: none; font-size: 0.9rem;">¿Olvidaste tu contraseña?</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn mt-4">
+                                <button type="submit" class="btn btn-primary display-7" style="background: linear-gradient(135deg, #007bff, #0056b3); border: none; border-radius: 10px; padding: 1rem 2rem; font-size: 1.2rem; font-weight: 600; box-shadow: 0 4px 15px rgba(0,123,255,0.3); transition: all 0.3s ease;">Iniciar Sesión</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="text-center mt-4" style="background: linear-gradient(135deg, #f5f1e8, #e8dcc0); padding: 1.5rem; border-radius: 10px; border: 1px solid #d4c4a8;">
+                    <h5 style="color: #495057; font-weight: 600; margin-bottom: 1rem;">🎭 ¿No tenés cuenta?</h5>
+                    <p style="color: #6c757d; margin-bottom: 1rem;">Registrate gratis y accedé a descuentos exclusivos</p>
+                    <a href="page2.html" class="btn btn-outline-success" style="border-radius: 8px; padding: 0.75rem 1.5rem; font-weight: 600;">Crear Cuenta</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section data-bs-version="5.1" class="form03 cid-v0FTxhUxLh" id="form-buy">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg item-wrapper">
+                <div class="mbr-section-head mb-5">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Formulario de compra</strong></h3>
+                </div>
+                <div class="col-lg-10 mx-auto mbr-form" data-form-type="formoid" style="background: linear-gradient(135deg, #f5f1e8, #e8dcc0); padding: 2rem; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <form action="#" method="POST" class="mbr-form form-with-styler" data-form-title="Form Compra">
+                        <div class="row">
+                            <div hidden="hidden" data-form-alert="" class="alert alert-success col-12" style="border-radius: 10px; border: none; background: linear-gradient(135deg, #28a745, #20c997); color: white; font-weight: 500;">🎫 ¡Tu compra fue confirmada con éxito! Te esperamos en el teatro.</div>
+                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12" style="border-radius: 10px; border: none;">Oops...! some problem!</div>
+                        </div>
+                        <div class="dragArea row" style="gap: 1rem;">
+                            <div class="col-12 form-group mb-4" data-for="show" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+                                <label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">Espectáculo seleccionado:</label>
+                                <select name="show" data-form-field="show" class="form-control" id="show-form-buy" style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+                                    <option value="esperando-carroza">Esperando la Carroza</option>
+                                    <option value="tango-pasion">Tango Pasión</option>
+                                    <option value="borges-yo">Borges y Yo</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 col-sm-12 form-group mb-4" data-for="tickets" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+                                <label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">Cantidad de entradas:</label>
+                                <select name="tickets" data-form-field="tickets" class="form-control" id="tickets-form-buy" style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 col-sm-12 form-group mb-4" data-for="payment" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+                                <label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">Medio de pago:</label>
+                                <select name="payment" data-form-field="payment" class="form-control" id="payment-form-buy" style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+                                    <option value="tarjeta">Tarjeta</option>
+                                    <option value="mercadopago">MercadoPago</option>
+                                    <option value="transferencia">Transferencia</option>
+                                </select>
+                            </div>
+                            <div class="col-12 form-group mb-4" data-for="cardholder" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+                                <label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">Nombre del titular:</label>
+                                <input type="text" name="cardholder" placeholder="Nombre del titular" data-form-field="cardholder" class="form-control" id="cardholder-form-buy" style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+                            </div>
+                            <div class="col-md-8 col-sm-12 form-group mb-4" data-for="cardnumber" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+                                <label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">Número de tarjeta:</label>
+                                <input type="text" name="cardnumber" placeholder="1234 5678 9012 3456" data-form-field="cardnumber" class="form-control" id="cardnumber-form-buy" style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+                            </div>
+                            <div class="col-md-2 col-sm-6 form-group mb-4" data-for="expiry" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+                                <label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">Vencimiento:</label>
+                                <input type="text" name="expiry" placeholder="MM/AA" data-form-field="expiry" class="form-control" id="expiry-form-buy" style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+                            </div>
+                            <div class="col-md-2 col-sm-6 form-group mb-4" data-for="cvv" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+                                <label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">CVV:</label>
+                                <input type="text" name="cvv" placeholder="123" data-form-field="cvv" class="form-control" id="cvv-form-buy" style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn mt-4">
+                                <button type="submit" class="btn btn-primary display-7" style="background: linear-gradient(135deg, #007bff, #0056b3); border: none; border-radius: 10px; padding: 1rem 2rem; font-size: 1.2rem; font-weight: 600; box-shadow: 0 4px 15px rgba(0,123,255,0.3); transition: all 0.3s ease;">Confirmar compra</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
   </section>
 
   <section class="display-7" style="padding: 0; align-items: center; justify-content: center; flex-wrap: wrap; align-content: center; display: flex; position: relative; height: 4rem;">

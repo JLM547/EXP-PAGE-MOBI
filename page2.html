@@ -8,20 +8,96 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/mbr.jpg" type="image/x-icon">
   <meta name="description" content="">
+
   
   
   <title>Registro</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/parallax/jarallax.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=AOmvSm"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=AOmvSm" type="text/css">
 
+  <style>
+    .form-control:focus {
+      border-color: #007bff !important;
+      box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25) !important;
+      transform: translateY(-2px);
+    }
+    
+    .form-control:hover {
+      border-color: #007bff;
+      transform: translateY(-1px);
+    }
+    
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,123,255,0.4) !important;
+    }
+    
+    .form-group {
+      transition: all 0.3s ease;
+    }
+    
+    .form-group:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    
+    .benefit-card {
+      transition: all 0.3s ease;
+    }
+    
+    .benefit-card:hover {
+      transform: translateY(-5px);
+      background: rgba(255,255,255,0.3) !important;
+    }
+    
+    #header09-u {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    #header09-u::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(45deg, rgba(220,53,69,0.1), rgba(0,123,255,0.1));
+      z-index: 1;
+    }
+    
+    #header09-u .container-fluid {
+      position: relative;
+      z-index: 2;
+    }
+    
+    .theater-pattern {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: 
+        radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(255,255,255,0.05) 0%, transparent 50%);
+      z-index: 1;
+    }
+  </style>
   
-  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8NEJPH7BZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-V8NEJPH7BZ');
+  </script>
   
 </head>
 <body>
@@ -33,11 +109,11 @@
 		<div class="container">
 			<div class="navbar-brand">
 				<span class="navbar-logo">
-					<a href="https://mobiri.se">
+					<a href="index.html">
 						<img src="assets/images/mbr.jpg" alt="Mobirise Website Builder" style="height: 4.3rem;">
 					</a>
 				</span>
-				<span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="https://mobiri.se">Teatro</a></span>
+				<span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="index.html">Teatro</a></span>
 			</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<div class="hamburger">
@@ -49,35 +125,146 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
-						<a class="nav-link link text-black display-4" href="https://mobiri.se">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link link text-black text-primary display-4" href="page1.html" aria-expanded="false">Salas de Teatro<br></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link link text-black text-primary display-4" href="page2.html">Registro<br></a>
-					</li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page3.html">Cartelera<br></a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page4.html">Compra De Entrada</a></li></ul>
+					<a class="nav-link link text-black display-4" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link link text-black text-primary display-4" href="page1.html" aria-expanded="false">Salas de Teatro<br></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link link text-black text-primary display-4" href="page2.html">Registro<br></a>
+				</li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page3.html">Cartelera<br></a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page4.html">Compra De Entrada</a></li></ul>
 				
 			</div>
 		</div>
 	</nav>
 </section>
 
-<section data-bs-version="5.1" class="header09 startm5 cid-v0FUHLPyem mbr-fullscreen mbr-parallax-background" id="header09-u">	
+<section data-bs-version="5.1" class="header09 startm5 cid-v0FUHLPyem mbr-fullscreen" id="header09-u" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/images/teatro1-1772x1275.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">	
     
-	<div class="mbr-overlay" style="opacity: 0; background-color: rgb(249, 44, 80);"></div>
+	<div class="theater-pattern"></div>
 	
 	<div class="container-fluid">
 		<div class="row">
-			<div class="content-wrap col-12 col-md-7">
-				<h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1"><strong>Registrate para disfrutar del teatro argentino</strong></h1>
+			<div class="content-wrap col-12 col-md-8">
+				<h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1"><strong>🎭 Únete a nuestra comunidad teatral</strong></h1>
 				
-				<p>Creá tu cuenta gratuita para acceder a beneficios exclusivos:</p><p><br>° Compra anticipada de entradas<br>° Descuentos especiales<br>° Novedades sobre estrenos y festivales nacionales</p><p>¿Que esperas?</p>
-				<div class="mbr-section-btn"><a class="btn btn-danger display-7">Registrarme!!!</a></div>
+				<p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Creá tu cuenta gratuita y accedé a beneficios exclusivos del Teatro Nacional Belgrano</p>
+				
+				<div class="row mb-4">
+					<div class="col-md-4 mb-3">
+						<div class="text-center benefit-card" style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; transition: all 0.3s ease;">
+							<div style="background: rgba(255,255,255,0.2); border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+								<span style="font-size: 1.5rem;">🎫</span>
+							</div>
+							<h5 style="color: white; font-weight: 600;">Compra Anticipada</h5>
+							<p style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">Acceso prioritario a entradas</p>
+						</div>
+					</div>
+					<div class="col-md-4 mb-3">
+						<div class="text-center benefit-card" style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; transition: all 0.3s ease;">
+							<div style="background: rgba(255,255,255,0.2); border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+								<span style="font-size: 1.5rem;">💰</span>
+							</div>
+							<h5 style="color: white; font-weight: 600;">Descuentos Especiales</h5>
+							<p style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">Hasta 20% de descuento</p>
+						</div>
+					</div>
+					<div class="col-md-4 mb-3">
+						<div class="text-center benefit-card" style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; transition: all 0.3s ease;">
+							<div style="background: rgba(255,255,255,0.2); border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+								<span style="font-size: 1.5rem;">📢</span>
+							</div>
+							<h5 style="color: white; font-weight: 600;">Novedades</h5>
+							<p style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">Estrenos y festivales</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="mbr-section-btn"><a class="btn btn-danger display-7" href="#form03-t" style="background: linear-gradient(135deg, #dc3545, #c82333); border: none; border-radius: 10px; padding: 1rem 2rem; font-weight: 600; box-shadow: 0 4px 15px rgba(220,53,69,0.3);">Registrarme Ahora</a></div>
+
 			</div>
 		</div>
 	</div>
-</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/4272493" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/ai-website-generator.html">AI Website Generator</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section>
+
+<section data-bs-version="5.1" class="form03 cid-v0FTxhUxLh" id="form03-t">
+
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-lg-8">
+				<div class="mbr-section-head mb-5">
+					<h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>📝 Crear Cuenta</strong></h3>
+					<p class="text-center mt-3" style="color: #6c757d;">Completá el formulario para acceder a todos los beneficios</p>
+				</div>
+				<div class="col-lg-12 mx-auto mbr-form" data-form-type="formoid" style="background: linear-gradient(135deg, #f5f1e8, #e8dcc0); padding: 2.5rem; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+					<form action="#" method="POST" class="mbr-form form-with-styler" data-form-title="Registro">
+						<div class="row">
+							<div hidden="hidden" data-form-alert="" class="alert alert-success col-12" style="border-radius: 10px; border: none; background: linear-gradient(135deg, #28a745, #20c997); color: white; font-weight: 500;">🎉 ¡Registro exitoso! Ya podés comprar entradas con descuentos exclusivos.</div>
+							<div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12" style="border-radius: 10px; border: none;">
+								Oops...! some problem!
+							</div>
+						</div>
+						<div class="dragArea row" style="gap: 1rem;">
+							<div class="col-md-6 col-sm-12 form-group mb-4" data-for="name" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+								<label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">Nombre y Apellido *</label>
+								<input type="text" name="name" placeholder="Ej: Juan Pérez" data-form-field="name" class="form-control" value="" id="name-form03-t" required style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+							</div>
+							<div class="col-md-6 col-sm-12 form-group mb-4" data-for="email" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+								<label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">E-mail *</label>
+								<input type="email" name="email" placeholder="ejemplo@email.com" data-form-field="email" class="form-control" value="" id="email-form03-t" required style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+							</div>
+							<div class="col-md-6 col-sm-12 form-group mb-4" data-for="phone" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+								<label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">Teléfono</label>
+								<input type="tel" name="phone" placeholder="(011) 1234-5678" data-form-field="phone" class="form-control" value="" id="phone-form03-t" style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+							</div>
+							<div class="col-md-6 col-sm-12 form-group mb-4" data-for="birth" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+								<label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">Fecha de Nacimiento</label>
+								<input type="date" name="birth" data-form-field="birth" class="form-control" value="" id="birth-form03-t" style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+							</div>
+							<div class="col-md-6 col-sm-12 form-group mb-4" data-for="password" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+								<label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">Contraseña *</label>
+								<input type="password" name="password" placeholder="Mínimo 6 caracteres" data-form-field="password" class="form-control" value="" id="password-form03-t" required minlength="6" style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+							</div>
+							<div class="col-md-6 col-sm-12 form-group mb-4" data-for="confirm" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+								<label class="form-label" style="font-weight: 600; color: #495057; margin-bottom: 0.5rem; font-size: 1.1rem;">Confirmar Contraseña *</label>
+								<input type="password" name="confirm" placeholder="Repetir contraseña" data-form-field="confirm" class="form-control" value="" id="confirm-form03-t" required style="border-radius: 8px; border: 2px solid #dee2e6; padding: 0.75rem; font-size: 1rem; transition: all 0.3s ease;">
+							</div>
+							<div class="col-12 form-group mb-4" style="background: linear-gradient(135deg, #faf8f3, #f0ebe0); padding: 1.5rem; border-radius: 10px; border: 1px solid #e9ecef;">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" id="terms" required>
+									<label class="form-check-label" for="terms" style="color: #495057; font-size: 0.95rem;">
+										Acepto los <a href="#" style="color: #007bff; text-decoration: none;">términos y condiciones</a> y la <a href="#" style="color: #007bff; text-decoration: none;">política de privacidad</a> *
+									</label>
+								</div>
+								<div class="form-check mt-2">
+									<input class="form-check-input" type="checkbox" id="newsletter">
+									<label class="form-check-label" for="newsletter" style="color: #495057; font-size: 0.95rem;">
+										Quiero recibir novedades y ofertas especiales por email
+									</label>
+								</div>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn mt-4">
+								<button type="submit" class="btn btn-primary display-7" style="background: linear-gradient(135deg, #007bff, #0056b3); border: none; border-radius: 10px; padding: 1rem 2rem; font-size: 1.2rem; font-weight: 600; box-shadow: 0 4px 15px rgba(0,123,255,0.3); transition: all 0.3s ease;">
+									Crear Cuenta
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-12 col-lg-4">
+				<div class="image-wrapper" style="border-radius: 15px; overflow: hidden; box-shadow: 0 8px 25px rgba(0,0,0,0.15);">
+					<img class="w-100" src="assets/images/infantil-1124x751.jpg" alt="Teatro" style="border-radius: 15px; transition: transform 0.3s ease;" loading="lazy">
+				</div>
+				<div class="mt-4 text-center" style="background: linear-gradient(135deg, #f5f1e8, #e8dcc0); padding: 1.5rem; border-radius: 10px; border: 1px solid #d4c4a8;">
+					<h5 style="color: #495057; font-weight: 600; margin-bottom: 1rem;">🎭 ¿Ya tenés cuenta?</h5>
+					<p style="color: #6c757d; margin-bottom: 1rem;">Iniciá sesión para acceder a tus beneficios</p>
+					<a href="page4.html#login-section" class="btn btn-outline-primary" style="border-radius: 8px; padding: 0.75rem 1.5rem; font-weight: 600;">Iniciar Sesión</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/4272493" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/drag-drop-website-builder.html">Drag and Drop Website Builder</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
   
   
 </body>
